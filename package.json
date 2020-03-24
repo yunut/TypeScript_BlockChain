@@ -1,0 +1,18 @@
+{
+  "name": "TypeScript_BlockChain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yunut/TypeScript_BlockChain.git",
+  "author": "yunut <somewheres@nate.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^3.8.3"
+  }
+}
